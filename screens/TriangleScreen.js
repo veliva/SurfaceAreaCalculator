@@ -34,11 +34,19 @@ export default class CalculatorScreen extends React.Component {
     };
 
     sumPerimeterValues = () => {
-        this.setState({perimeter: this.state.perimeterA + this.state.perimeterB + this.state.perimeterC});
+        if(this.state.perimeterA === parseFloat("0") || this.state.perimeterB === parseFloat("0") || this.state.perimeterC === parseFloat("0")){
+            return;
+        } else {
+            this.setState({perimeter: this.state.perimeterA + this.state.perimeterB + this.state.perimeterC});
+        }
     }
 
     calculateSurfaceArea = () => {
-        this.setState({surfaceArea: this.state.surfaceAreaA * this.state.surfaceAreaH / 2});
+        if(this.state.surfaceAreaA === parseFloat("0") || this.state.surfaceAreaH === parseFloat("0")){
+            return;
+        } else {
+            this.setState({surfaceArea: this.state.surfaceAreaA * this.state.surfaceAreaH / 2});
+        }
     }
     
     render() {

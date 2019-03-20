@@ -32,7 +32,7 @@ export default class MenuScreen extends React.Component{
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
-        backgroundColor: "#56d89c"
+        backgroundColor: "#b4cdf7"
     },
     screenSplit: {
         alignSelf: 'stretch', 
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     middleView: {
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "white",
+        backgroundColor: "#d9d9db",
     },
     sectionText: {
         fontWeight: "bold",
