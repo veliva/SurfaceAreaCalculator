@@ -118,8 +118,19 @@ export default class CalculatorScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
-    container: {flex: 1, backgroundColor: "black"},
-    displayContainer: { flex: 1,  justifyContent: "flex-end"},
-    buttonContainer: { paddingBottom: 20 },
-    buttonRow: {flexDirection: "row", justifyContent: "space-between"}
+    container: {
+        flex: 1,
+        backgroundColor: "black"
+    },
+    displayContainer: { 
+        flex: 1,
+        justifyContent: "flex-end"
+    },
+    buttonContainer: { 
+        paddingBottom: 20 
+    },
+    buttonRow: {
+        flexDirection: "row",
+        justifyContent: "space-between"
+    }
 });
