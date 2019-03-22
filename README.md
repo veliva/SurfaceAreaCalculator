@@ -1,6 +1,11 @@
 # SurfaceAreaCalculator  
 ## Projekti seadistamine  
-Tekst  
+### Text color names
+1. Lae projekt alla Githubist
+2. Unzipi folder ja liigu PowerShellis projekti kausta
+3. Kirjuta PowerShelli käsk: `npm install`
+4. Kirjuta PowerShelli käsk: `react-native run-android`
+
 ### Juhend  
 Rakenduse kalkulaator on tehtud [Youtubes oleva õpetuse järgi](https://www.youtube.com/watch?v=kye4zEwDxgU). Juhend on väga selge ja õpetlik, andis hea ettekujutuse React Nativest. Kõik peale tavalise kalkulaatori on tehtud ise: ekraanide vahel liikumine, kujundite kalkulaatorid, disain. Juhendina kasutasin Googlet ja Stack Overflowd.
 ### Juhendi muutused  
