@@ -1,6 +1,5 @@
 # SurfaceAreaCalculator  
 ## Projekti seadistamine  
-### Text color names
 1. Lae projekt alla Githubist
 2. Unzipi folder ja liigu PowerShellis projekti kausta
 3. Kirjuta PowerShelli käsk: `npm install`
